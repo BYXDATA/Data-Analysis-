@@ -6,6 +6,20 @@
 
 The dataset under examination is a classic resource used in medical diagnostics, particularly for predicting heart disease. Originating from a collection of databases compiled in 1988, this dataset includes records from Cleveland, Hungary, Switzerland, and Long Beach V. It features a total of 76 attributes, with 14 key attributes commonly used for analysis and prediction. The goal is to utilize various machine learning and statistical techniques to classify patients based on their attributes and assess the effectiveness of different methods in predicting heart disease.
 
+## Usage
+
+This dataset can be utilized for various tasks in cardiovascular health analysis, including:
+
+1. *Predictive Modeling*: 
+   - Train classification algorithms to predict the presence of heart disease based on patient attributes such as age, gender, chest pain type, and other health indicators.
+
+2. *Exploratory Data Analysis (EDA)*: 
+   - Analyze and visualize the relationships between different features, such as cholesterol levels and resting blood pressure, and their correlation with heart disease.
+
+3. *Performance Evaluation*:
+   - Evaluate model effectiveness using metrics such as accuracy, precision, recall, and ROC-AUC score to understand how well the model predicts heart disease.
+  
+
 ## Libraries Used
 
 1. **NumPy:**  
