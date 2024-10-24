@@ -1,7 +1,6 @@
 # Instacart Market Basket Analysis
 
 ## Introduction
-
 This competition involves a relational dataset describing customer orders over time, with the goal of predicting which products will appear in a user's next order. The database contains over 3 million grocery orders from more than 200,000 Instacart users, providing insights into shopping behavior through the sequence of products purchased in each order. 
 
 ## Libraries Used
@@ -24,8 +23,34 @@ This competition involves a relational dataset describing customer orders over t
 6. **Google Colab:**  
    A cloud-based Jupyter notebook environment that allows you to write and execute Python code in your browser. It provides free access to computational resources and is particularly useful for collaborative data analysis and machine learning tasks.
 
+## Exploratory Data Analysis
+
+### Attributes of the Dataset
+
+- **order_id:** Unique identifier for each order.
+- **user_id:** Unique identifier for each user.
+- **eval_set:** Indicates the dataset type (e.g., 'prior' for previous orders).
+- **order_number:** Sequence number of the order for a user.
+- **order_dow:** Day of the week the order was placed (0-6).
+- **order_hour_of_day:** Hour of the day the order was placed (0-23).
+- **days_since_prior_order:** Days since the last order (NaN if no prior order).
+- **product_id:** Unique identifier for each product.
+- **product_name:** Name of the product.
+- **aisle_id:** Identifier for the aisle where the product is located.
+- **department_id:** Identifier for the department the product belongs to.
+- **add_to_cart_order:** Order in which the product was added to the cart.
+- **reordered:** Indicates if the product was reordered (1 for yes, 0 for no).
+- **aisle:** Name of the aisle.
+- **department:** Name of the department.
+
 ## Links
 
 - [Link to Google Colab](https://colab.research.google.com/drive/1YQgGgKckprF4LIsrvpanpRYJ-4NdjHtn?usp=sharing)
 - [Link to Dataset](https://www.kaggle.com/crowdflower/twitter-airline-sentiment)
+
+## Credits
+
+This file was created by:
+- [Joud Ahmad Al-huthaly](https://github.com/BYXDATA)
+- [Nehal Hamed Al-zahrani](https://github.com/nehal3589)
 
