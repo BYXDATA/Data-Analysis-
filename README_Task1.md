@@ -27,6 +27,8 @@ The dataset under examination is a classic resource used in medical diagnostics,
    - **Linear Discriminant Analysis (LDA):** A classification technique that improves class separation.
    - **Quadratic Discriminant Analysis (QDA):** A classification technique that estimates class-specific probability distributions, allowing for different variances between classes.
 
+6. **Imbalanced-learn:**  
+   A library used for handling imbalanced datasets, including techniques like SMOTE (Synthetic Minority Over-sampling Technique) to increase the number of samples in the minority class.
 
 
 ## Exploratory Data Analysis
