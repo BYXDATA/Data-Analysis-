@@ -3,6 +3,20 @@
 ## Introduction
 This competition involves a relational dataset describing customer orders over time, with the goal of predicting which products will appear in a user's next order. The database contains over 3 million grocery orders from more than 200,000 Instacart users, providing insights into shopping behavior through the sequence of products purchased in each order. 
 
+## Usage
+
+This dataset can be utilized for various tasks related to market basket analysis, including:
+
+1. *Exploratory Data Analysis (EDA)*:
+   - Analyze customer order patterns and visualize shopping behavior over time.
+   - Explore the relationships between different products and their frequencies in orders.
+
+2. *Association Rule Learning*:
+   - Utilize algorithms such as Apriori to identify frequent itemsets and derive association rules that reveal relationships between products.
+
+3. *Time Series Analysis*:
+   - Investigate how ordering patterns change over time, including seasonal effects or trends in product popularity.
+  
 ## Libraries Used
 
 1. **Matplotlib:**  
