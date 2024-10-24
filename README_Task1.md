@@ -27,3 +27,35 @@ The dataset under examination is a classic resource used in medical diagnostics,
    - **Linear Discriminant Analysis (LDA):** A classification technique that improves class separation.
    - **Quadratic Discriminant Analysis (QDA):** A classification technique that estimates class-specific probability distributions, allowing for different variances between classes.
 
+
+
+## Exploratory Data Analysis
+
+**Attributes of the Dataset:**
+
+- **age:** Age of the patient (integer)
+- **sex:** Gender (1 = male, 0 = female)
+- **cp:** Chest pain type (categorical)
+- **trestbps:** Resting blood pressure (integer)
+- **chol:** Serum cholesterol in mg/dl (integer)
+- **fbs:** Fasting blood sugar > 120 mg/dl (1 = true, 0 = false)
+- **restecg:** Resting electrocardiographic results (categorical)
+- **thalach:** Maximum heart rate achieved (integer)
+- **exang:** Exercise-induced angina (1 = yes, 0 = no)
+- **oldpeak:** ST depression induced by exercise (float)
+- **slope:** Slope of the peak exercise ST segment (categorical)
+- **ca:** Number of major vessels colored by fluoroscopy (integer)
+- **thal:** Thalassemia (categorical)
+- **target:** Target variable indicating the presence of heart disease (1 = disease, 0 = no disease)
+
+## Links
+
+- [Link to Google Colab](https://colab.research.google.com/drive/17UEhNE9lCwMhyw2fNrF8__jMWlygHwm1?usp=sharing)  
+- [Link to Dataset](https://www.kaggle.com/ronitf/heart-disease-uci)
+
+
+## Credits
+
+This file was created by:
+- [Joud Ahmad Al-huthaly](https://github.com/BYXDATA)
+- [Nehal Hamed Al-zahrani](https://github.com/nehal3589)
